@@ -18,7 +18,7 @@ export default function App() {
 
   //if the user enters a number then we switch to the game screen
   if (userNumber) {
-    screen = <GameScreen />;
+    screen = <GameScreen userNumber={userNumber} />;
   }
 
   return (
